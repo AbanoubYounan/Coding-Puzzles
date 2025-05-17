@@ -34,9 +34,10 @@ The code:
     }
     cout<<sum<<endl;
     `
-Complexity analysis:
+   
+- Complexity analysis:
 - It's a O(N) * t (test cases).
-- N is (1 ≤ n ≤ 109), t (1 ≤ t ≤ 100), so in the worst case it will be 10^11 TLE for sure :( , I think we need more efficient solution.
+- N is (1 ≤ n ≤ 10^9), t (1 ≤ t ≤ 100), so in the worst case it will be 10^11 TLE for sure :( , I think we need more efficient solution.
 
 2. We can get the sum from 1 to n in O(1) by: s = n·( n + 1) / 2; But the problem here we didn't minus the numbers powers of 2, but we can just do it by O(log(n)) by this:
     `
